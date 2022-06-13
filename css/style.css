@@ -1,0 +1,87 @@
+header h1 {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  color: #eea0ad;
+  font-size: 80px;
+  padding: 30px; }
+
+.navbar {
+  background-color: #cceb9d;
+  width: 100%;
+  margin: 10px auto;
+  padding: 5px; }
+  .navbar .navbar-nav {
+    list-style-type: none;
+    padding: none;
+    display: flex;
+    justify-content: space-between; }
+    .navbar .navbar-nav .nav-item {
+      padding: 5px;
+      margin: 10px; }
+      .navbar .navbar-nav .nav-item .nav-link {
+        text-decoration: none;
+        color: crimson;
+        font-size: 1.3rem; }
+        .navbar .navbar-nav .nav-item .nav-link:hover {
+          color: #7eb8dc; }
+
+main h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #eea0ad;
+  margin: 15px; }
+
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 15px;
+  padding: 5px;
+  color: #eea0ad;
+  text-align: justify; }
+
+main h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #eea0ad;
+  margin: 15px; }
+
+main .lista {
+  list-style-type: none;
+  padding: 5px; }
+  main .lista .listaItem {
+    margin: 10px;
+    color: #eea0ad;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem; }
+
+main .tabla {
+  margin: 50px 150px 150px 180px;
+  background-color: #c1eaf3;
+  text-align: justify;
+  width: 70%; }
+  main .tabla th {
+    color: #d0476b;
+    padding: 8px;
+    font-family: 'PT Sans', sans-serif; }
+  main .tabla td {
+    color: #d0476b;
+    padding: 8px;
+    font-family: 'PT Sans', sans-serif; }
+
+footer {
+  background-color: #cceb9d;
+  width: 100%;
+  margin: 10px auto;
+  padding: 50px; }
+  footer .redes {
+    list-style-type: none;
+    padding: none;
+    justify-content: center; }
+    footer .redes .listaRedes {
+      padding: 5px;
+      margin: 10px; }
+      footer .redes .listaRedes .redesLink {
+        text-decoration: none;
+        color: crimson;
+        font-size: 1rem; }
+        footer .redes .listaRedes .redesLink:hover {
+          color: #7eb8dc; }
